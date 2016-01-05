@@ -1,0 +1,60 @@
+SHOPPOSGO
+
+1.0	PREFACE
+This document describe use-cases of SHOPPOSGO app (Name will be change later). This app is to help digitalize the small shop owners to sell their products with-in their area of reach to deliver their products in cost effective way to the respective demographic customer segment. The app is design for Android phone which is easy to deploy, provide the extract location of their shop, and display the products and prices. Register users can view the prices only when agreed by the shop owner to display the price. The application would a cool way to promote your inventory online without investing a single penny in technology. Shops can take orders on the app, track their customer and provide deals to regular customer using this application. Application will provide customer analytics solution to identify the correct demographic of customer to target and track purchases. As a shop owner, user will required to register their shops on to the app, and start with the setup process. 
+
+High level Diagram 
+2.0	REGISTER THE USER 
+User register is required for the app once downloaded. The link for the app download will be available on Google Play Store. User can download the app which should ask for registration. 
+Before downloading, app will be required to access device identity, photos, camera, connection information and censor etc. Once accepted, user would be able to download the app and installed.  
+User registration process 
+1)	Provide UI to collect following information 
+a.	First Name
+b.	Last Name
+c.	Address name 
+d.	City, Pin code 
+e.	Email 
+f.	Phone
+2)	Upon successful registration, SMS security token will be generated and will be SMS on the phone and also send on user email. Token is required to be entered to enter the app.   
+3)	User will be provided by the popup to create 1 shop and upload 5 products for free. 
+3.0 SHOP REGISTRATION
+This is the main flow in the application which requires detail regarding the shop owned or maintained by the registered user. User of the app should be have physical shop to create a mobile shop. User should provide complete mailing address, upload photos using the camera, Provide complete name of the shop as registered in the local authority. Registration would be a workflow with 6-8 steps. Use can save their shop profile while editing and retrieve it later to complete 
+1)	Each step will show the percentage completed with option to save
+2)	The process will be paginated and user can move from one page to another upon completion
+
+SETPS IN REGISTRATION PROCESS
+1)	Enter the name of the stop in Multilingual. Local language support can be added as few mobile support for local languages
+2)	Address of the Stop: User to enter the address of the stop in complete including the city and state. The address field can accommodate any number of characters with city, state and country and pin as separate fields. City and State and Country will be editable as well as dropdown fields. Pin code is mandatory. Pin code would be validated with the city and state provide or warning will be displayed with recommended correction. User can still use their provide details and override the validation. 
+3)	Geo Location: User to provide the correct GEO location on the google map. The app will open google map for the user in this step and user to pin the exact location on the MAP. This step is mandatory to provide location for the shop. Using the mobile network / Wifi, app to determine the location on the map record coordinates. User can move the pin on the map to select the correct coordinates. This could be similar to UBER or OLA app. It is very important to get the extract location of the user shop location in terms of coordinates on the map. The coordinates need to save along with the shop profile.
+4)	Shop Photo 
+a.	User can upload shop photos from inside and outside. Max. 10 photo allowed 
+b.	Application to provide option to use the phone camera to take photo, and pics of the shop. Shop should have photo inside and outside or even direction to the shop  
+5)	The Shop type / category
+a.	Checkbox option to provide different type of shops. User can ability to create an option for themselves to describe their shop. The Shop type should not be more the 100 characters.  Some of the category can be looked in the SIC, NAIC code. User will require to provide high level category and can then select option sub category. 
+6)	Optional information 
+a.	Rented / Owned 
+b.	Year Started 
+c.	Any subsidiary 
+d.	Seller / Manufacturer
+7)	Description of the shop 
+a.	200 words to describe the shop, vision and mission statement 
+8)	Scan and Upload registration documents (optional)
+4.0 ADMIN PROCESS
+Automated approval process to approve the shop upload by the customer. This is required to check if the user has loaded all the documents and details before approval of the shopping process begins. 
+
+5.0 DISPLAY THE SHOPPOS ON THE APP
+The process decide on how to prepare to display the shop to the end customer. The customer who is ready to download the customer app would be able to search a shop using geo location, product and category and something around him. 
+The shop to be display as they are looking into the app create for that shop. They will be able to view the shop detail, connect to google map for direction, and look at product. Only one option should be available to pay on delivery. User can order, track in on phone and call the shop keeper and pay upon receiving.   
+
+
+
+
+
+
+
+
+
+
+
+
+ 
